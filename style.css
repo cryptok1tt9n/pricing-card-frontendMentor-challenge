@@ -1,0 +1,119 @@
+html {
+  font-family: Karla;
+  font-size: 16px;
+}
+
+body {
+  background-color: #e6eff6;
+}
+
+.mainBox {
+  box-shadow: rgba(0, 0, 0, 0.345) 0px 8px 28px -4px;
+  margin: 20% 28% 20% 28%;
+  overflow: hidden;
+  width: 44%;
+  height: 60%;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+  .mainBox {
+    margin: 10%;
+    width: 80%;
+  }
+
+  .subWhyBottomPart {
+    flex-direction: column;
+  }
+
+  .subWhyBottomPart > div {
+    width: 100%;
+  }
+
+  .signUpButton {
+    height: 100%; /* Mobile height */
+    font-size: 1rem;
+    margin: 30% 5% 5% 5%;
+    line-height: 4;
+  }
+}
+
+.subWhyBottomPart > div {
+  box-sizing: border-box;
+}
+
+.subWhyBottomPart {
+  display: flex;
+  color: white;
+}
+
+.subscriptionLeftBlock {
+  background-color: #2bb3b1;
+  width: 50%;
+  padding: 3% 6% 3% 6%;
+}
+
+.perMonth,
+.priceText {
+  display: inline;
+  margin-right: 3%;
+}
+
+.signUpButton {
+  background-color: hsl(71, 73%, 54%);
+  height: 17%;
+  width: 80%;
+  border: none;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.345) 0px 8px 28px -4px;
+  margin: 10% 10% 15% 10%;
+  box-sizing: border-box;
+}
+
+.whyUsRightBlock {
+  background-color: #4abebd;
+  width: 50%;
+  padding: 3% 6% 3% 6%;
+  border-radius: 0 0 7px 0;
+}
+
+.joinTopPart {
+  height: 50%;
+  padding: 3% 6% 3% 6%;
+}
+
+.joinText {
+  color: #3ea6a4;
+}
+
+.guaranteeText {
+  color: hsl(71, 73%, 54%);
+}
+
+.greyText {
+  color: #afb1b5;
+}
+
+.blueText {
+  color: #d1e6e6;
+}
+
+.whiteText {
+  color: white;
+}
+
+.whyUsText {
+  font-weight: 200;
+  color: #dcdcdc;
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.regularText {
+  font-weight: 200;
+}
